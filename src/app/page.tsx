@@ -260,7 +260,7 @@ export default function HomePage() {
                 Zero Monthly Subscription
               </h3>
               <p className="mt-2 text-xs leading-relaxed text-neutral-400">
-                VidIQ charges $19 to $99 every single month. With Open-VidIQ, a full keyword scan costs <span className="text-emerald-400 font-bold">$0.002</span>.
+                VidIQ charges $19 to $99 every single month. With Videalit, a full keyword scan costs <span className="text-emerald-400 font-bold">$0.002</span>.
               </p>
               <div className="mt-4 flex items-center gap-2 text-xs text-neutral-300">
                 <ShieldCheck className="h-4 w-4 text-emerald-400" />
@@ -284,7 +284,7 @@ export default function HomePage() {
       <div className="mt-24 rounded-3xl border border-neutral-800 bg-neutral-900/50 p-6 sm:p-8 backdrop-blur-md">
         <div className="text-center max-w-xl mx-auto mb-8">
           <h2 className="text-xl sm:text-2xl font-black tracking-tight text-white">
-            Why Creators Are Switching to Open-VidIQ
+            Why Creators Are Switching to Videalit
           </h2>
           <p className="mt-1 text-xs text-neutral-400">
             Honest comparison with proprietary SaaS subscriptions
@@ -296,7 +296,7 @@ export default function HomePage() {
             <thead>
               <tr className="border-b border-neutral-800 text-neutral-400">
                 <th className="pb-3 font-semibold">Feature</th>
-                <th className="pb-3 font-bold text-red-400">Open-VidIQ (OSS)</th>
+                <th className="pb-3 font-bold text-red-400">Videalit (OSS)</th>
                 <th className="pb-3 font-semibold text-neutral-400">VidIQ Pro / Boost</th>
                 <th className="pb-3 font-semibold text-neutral-400">TubeBuddy Legend</th>
               </tr>

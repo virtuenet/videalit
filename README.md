@@ -1,16 +1,16 @@
-# Open-VidIQ
+# Videalit
 
 > **Open source alternative to VidIQ and TubeBuddy for YouTube creators**
 
-Open-VidIQ gives creators YouTube keyword research, live SERP rank tracking, deep video SEO scorecards, timestamped transcript search, audience comment intelligence, and an AI growth copilot — with **zero monthly subscriptions**.
+Videalit gives creators YouTube keyword research, live SERP rank tracking, deep video SEO scorecards, timestamped transcript search, audience comment intelligence, and an AI growth copilot — with **zero monthly subscriptions**.
 
 Powered directly by [MuAPI](https://muapi.ai)'s YouTube SERP and Generative Media APIs. Pay fractions of a cent (~$0.002 to $0.006) per query instead of $19–$99/month.
 
 ---
 
-## Why Open-VidIQ?
+## Why Videalit?
 
-| Feature | Open-VidIQ (OSS) | VidIQ Pro / Boost | TubeBuddy Legend |
+| Feature | Videalit (OSS) | VidIQ Pro / Boost | TubeBuddy Legend |
 |---|---|---|---|
 | **Monthly Subscription** | **$0 / mo (Self-hosted)** | $19 – $99 / mo | $29 – $49 / mo |
 | **Cost per Keyword Check** | **~$0.002** (Pay-as-you-go) | Locked in monthly tier | Locked in monthly tier |
@@ -74,7 +74,7 @@ Powered directly by [MuAPI](https://muapi.ai)'s YouTube SERP and Generative Medi
 
 ## Architecture & MuAPI Endpoints
 
-Open-VidIQ executes directly against [MuAPI](https://muapi.ai)'s production task runner. Requests poll continuously until completion or failure (no arbitrary timeout cuts, no fake fallback data):
+Videalit executes directly against [MuAPI](https://muapi.ai)'s production task runner. Requests poll continuously until completion or failure (no arbitrary timeout cuts, no fake fallback data):
 
 | Capability | MuAPI Endpoint | Request Model | Cost |
 |---|---|---|---|
@@ -107,8 +107,8 @@ Open-VidIQ executes directly against [MuAPI](https://muapi.ai)'s production task
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SamurAIGPT/Open-VidIQ.git
-cd Open-VidIQ
+git clone https://github.com/virtuenet/videalit.git
+cd Videalit
 
 # 2. Configure your environment variables
 cp .env.example .env
@@ -162,4 +162,4 @@ Contributions are always welcome! Feel free to open an issue or submit a pull re
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
-© [Open-VidIQ Contributors](https://github.com/SamurAIGPT/Open-VidIQ)
+© [Videalit Contributors](https://github.com/virtuenet/videalit)

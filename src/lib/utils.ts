@@ -1,5 +1,5 @@
 /**
- * Open-VidIQ Utility Functions
+ * Videalit Utility Functions
  */
 
 export function extractYoutubeVideoId(urlOrId: string): string {

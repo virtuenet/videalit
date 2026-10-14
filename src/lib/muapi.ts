@@ -1,5 +1,5 @@
 /**
- * MuAPI YouTube & AI Client for Open-VidIQ
+ * MuAPI YouTube & AI Client for Videalit
  * Seamlessly connects to MuAPI's YouTube SERP suite:
  * - /seo-youtube-organic
  * - /seo-youtube-video-info

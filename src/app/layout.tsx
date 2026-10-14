@@ -3,7 +3,7 @@ import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Open-VidIQ | Open Source Alternative to VidIQ & TubeBuddy",
+  title: "Videalit | Open Source Alternative to VidIQ & TubeBuddy",
   description:
     "Open-source YouTube SEO, keyword research, SERP rank tracking, video scorecards, transcript studio, and creator growth copilot — powered by MuAPI.",
   keywords: [
@@ -40,7 +40,7 @@ export default function RootLayout({
           <footer className="border-t border-neutral-800/80 bg-neutral-950/80 py-8 text-center text-xs text-neutral-500 backdrop-blur-md">
             <div className="mx-auto max-w-7xl px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-2">
-                <span className="font-bold text-neutral-300">Open-VidIQ</span>
+                <span className="font-bold text-neutral-300">Videalit</span>
                 <span>•</span>
                 <span>Open-source alternative to VidIQ</span>
               </div>
@@ -54,7 +54,7 @@ export default function RootLayout({
                   Powered by MuAPI
                 </a>
                 <a
-                  href="https://github.com/SamurAIGPT/Open-VidIQ"
+                  href="https://github.com/virtuenet/videalit"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

@@ -55,7 +55,7 @@ export function Navbar() {
           <div>
             <div className="flex items-center gap-1.5">
               <span className="text-lg font-extrabold tracking-tight text-white">
-                Open<span className="text-red-500">VidIQ</span>
+                Videa<span className="text-red-500">lit</span>
               </span>
               <span className="rounded-md bg-purple-500/10 px-1.5 py-0.5 text-[10px] font-bold text-purple-400 border border-purple-500/20">
                 OSS
@@ -101,7 +101,7 @@ export function Navbar() {
           </div>
 
           <a
-            href="https://github.com/SamurAIGPT/Open-VidIQ"
+            href="https://github.com/virtuenet/videalit"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 rounded-lg border border-neutral-800 bg-neutral-900/80 px-3 py-1.5 text-xs font-medium text-neutral-300 hover:bg-neutral-800 hover:text-white transition-colors"
